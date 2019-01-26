@@ -1,0 +1,65 @@
+
+#sitename{
+	font-family: calibri;
+	font-weight: bold;
+	position: relative;
+	margin: 0;
+	padding-bottom: 0;
+	padding-top: 10px;
+	padding-left: 30px;
+	padding-right: 0;
+	font-size: 48px;
+	color: white;
+}
+
+#tagline{
+	font-family: calibri;
+	font-weight: bold;
+	font-style: italic;
+	position: relative;
+	margin-top:0;
+	margin-bottom:0;
+	padding-bottom: 10px;
+	padding-top:10px;
+	padding-left: 80px;
+	padding-right: 0;
+	font-size: 18px;
+	color: yellow;
+}
+
+.sitetitle{
+	background-color: black;
+}
+
+.navigation{
+	margin-top: 0;
+	margin-bottom:0;
+	background-color: darkred;
+	color: white;
+	height: 50px;
+}
+
+.navigation ul{
+	vertical-align: middle;
+}
+
+
+.navigation li{
+	display: inline;
+	font-family: calibri;
+	font-weight: bold;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+
+.pages li{
+	float: left;
+	font-style: italic;
+	text-transform: uppercase;
+}
+
+.account li{
+	float: right;
+}
+
