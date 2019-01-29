@@ -1,0 +1,157 @@
+
+header{
+	background-color: black;
+	}
+
+footer{
+	background-color: black;
+	text-align: center;
+	margin: 0;
+	padding-top: 0.75em;
+	padding-bottom: 0.75em;
+	border-bottom-color: darkslategray;
+	border-bottom-width: 0.25em;
+	border-bottom-style: solid;
+}
+
+a{
+	text-decoration: none; /* remove underline from all links */
+	color: black;
+}
+
+body{
+	margin: 0;
+}
+
+footer a{
+	color: lightgray;
+	font-size: 0.87em;
+}
+
+.headermenu{
+	display: inline-block;
+}
+
+.footermenu{
+	display: inline-table;
+	margin-bottom: 2em;
+}
+
+#logo{
+	border-radius: 0.5em;
+	width: 40vw;
+	height: 20vh;
+	padding: 0;
+	margin-bottom: 0;
+	margin-left: 0;
+}
+
+#player{
+	float: right;
+	border-radius: 0.5em;
+	width: 55vw;
+	height: 20vh;
+	padding: 0;
+	margin-bottom: 0;
+	margin-left: 0;
+	filter: grayscale(100%);
+	padding-right: 1.25em;
+	
+}
+
+#topmenu{
+	margin-top: 0;
+	margin-bottom:0;
+	background-color: darkslategray;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: gray;
+	border-bottom-color: gray;
+	border-top-width: 2px;
+	border-bottom-width: 2px;
+	color: white;
+	padding: 0.5em 0;
+	height: 3vh;
+}
+
+#bottommenu{
+	background-color: black;
+	border-top-style:solid;
+	border-bottom-style: solid;
+	border-top-color: darkslategray;
+	border-bottom-color: black;
+	color: gray;
+	font-family: arial;
+	padding: 0;
+}
+
+#bottommenu section h3{
+	vertical-align: middle;
+	padding: 0em;
+	margin-left: 6em;
+	margin-top: 2.5em;
+	margin-bottom: 0.3em;
+}
+
+
+	
+
+#topmenu section a{
+	font-family: calibri;
+	font-weight: bold;
+	padding: 0em 1vw 0em;
+	color: white;
+	font-size: 96%;
+}
+
+#bottommenu section a{
+	display: block;
+	font-family: calibri;
+	color: white;
+	font-size: 0.87em;
+	margin-left: 8.5em;
+	margin-top: 0.6em;
+	margin-bottom: 0.3em;
+	margin-right: 0;
+}
+
+
+#pageInfo a{
+	border-right-style: solid;
+	border-right-color: gray;
+	border-right-width: 1px;
+}
+
+#pageInfo :hover{
+	color: black;
+	font-style: italic;
+	background-color: slategray;
+}
+
+#accountInfo{
+	float: right;
+}
+	
+#accountInfo :hover{
+	color: black;
+	font-style: italic;
+	background-color: slategray;
+}
+
+#resources a:hover{
+	color: gold;
+}
+
+#connect a:hover{
+	color: gold;
+}
+
+#assist a:hover{
+	color: gold;
+}
+
+#signborder{
+	border-right-style: solid;
+	border-right-color: gray;
+	border-right-width: 1px;
+}
