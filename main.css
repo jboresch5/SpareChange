@@ -35,6 +35,7 @@ footer a{
 .footermenu{
 	display: inline-table;
 	margin-bottom: 2em;
+
 }
 
 #logo{
@@ -155,3 +156,116 @@ footer a{
 	border-right-color: gray;
 	border-right-width: 1px;
 }
+
+.about{
+	font-family: calibri;
+	margin-top: 10vh;
+}
+
+.about h2{
+	margin-top: 5vh;
+	margin-bottom: 0;
+	margin-left: 3vw;
+	color: darkred;
+}
+
+.team{
+	overflow: auto;
+}
+
+#aboutsections{
+	font-size: 0.9em;
+	margin-left: 5vw;
+	margin-right: 5vw;
+}
+
+#castle{
+	float: right;
+	margin-top: 10vh;
+	margin-left: 5vw;
+	margin-right: 5vw;
+	margin-bottom: 0;
+	padding: 0;
+	width: 20vw;
+	height: 60vh;
+	border-style: solid;
+	border-color: darkslategray;
+	border-width: 2px;
+}
+
+#jake{
+	width: 12vw;
+	height: 21vh;
+	float: left;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	margin-top: 7vh;
+	margin-left: 5vw;
+	margin-right: 3vw;
+	margin-bottom:0;
+}
+
+#tony{
+	width: 12vw;
+	height: 24vh;
+	float: right;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	margin-right: 7vw;
+	margin-bottom: 5vw;
+	margin-left: 3vw;
+	margin-top: 5vh;
+
+}
+
+#firstname{
+	padding:0;
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 5vh;
+	margin-left: 0;
+}
+
+#firsttitle{
+	padding:0;
+	margin:0;
+	font-style: italic;
+	font-size: 1em;
+	font-weight: normal;
+}
+
+#firstbio{
+	margin-right: 10vw;
+	margin-left: 5vw;
+	font-size: 1em;
+	margin-bottom: 3vw;
+	font-size: 0.9em;
+
+}
+
+#secondname{
+	padding: 0;
+	margin-bottom: 0;
+	margin-left: 7vw;
+}
+
+#secondtitle{
+	margin-top: 0;
+	padding: 0;
+	margin-bottom:0;
+	font-style: italic;
+	font-size: 1em;
+	font-weight: normal;
+	margin-left: 7vw;
+}
+
+#secondbio{
+	margin-left: 7vw;
+	font-size: 1em;
+	margin-bottom: 3vw;
+	font-size: 0.9em;
+}
+
